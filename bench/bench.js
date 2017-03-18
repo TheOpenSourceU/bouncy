@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+
+//Check out the readme.markdown. This is a performance benchmark.
+
 var http = require('http');
 var p0 = 7500;
 var p1 = 7501;
