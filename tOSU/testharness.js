@@ -26,6 +26,8 @@ var server = bouncy(function (req, res, bounce) {
   }
   state = !state;
 
+  res.statusCode = 200;
+  res.end('Done');
 
   // if (req.headers.host === 'beep.example.com') {
   //   bounce(8001);
